@@ -1,12 +1,8 @@
 <script>
-  import Navbar from '../lib/components/Navbar.svelte'
-  import { goto } from '$app/navigation'
+  import Navbar from '$lib/components/Navbar.svelte'
+  import FormCard from '$lib/components/FormCard.svelte'
 
   export let featuredForms
-
-  function gotoForm(id) {
-    goto(`/form/${id}`)
-  }
 </script>
 
 <Navbar />
@@ -24,12 +20,7 @@
     <h1 class="uk-text-lead">Featured Forms</h1>
 
     {#each featuredForms as form}
-      <div class="uk-padding-small uk-margin" style="border: .5px solid white; border-radius: 8px;">
-        <h4 class="uk-margin-remove">Title: {form.title}</h4>
-        <h6 class="uk-margin-remove">Description: {form.description}</h6>
-
-        <h6 class="uk-margin-top uk-margin-remove-bottom">Uploaded on: {form.uploadedDate.readable}</h6>
-      </div>
+      <FormCard {form} />
     {/each}
   </section>
 </div>
