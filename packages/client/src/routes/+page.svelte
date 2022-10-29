@@ -4,4 +4,8 @@
   export let data
 </script>
 
+<svelte:head>
+  <title>AnonForms - Anonymously create and answer forms</title>
+</svelte:head>
+
 <Home featuredForms={data.featuredForms} />
