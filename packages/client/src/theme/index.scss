@@ -2,6 +2,15 @@
 
 @import url('https://cdn.jsdelivr.net/npm/victormono@latest/dist/index.min.css');
 
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow: scroll;
+}
+
 // Custom Variables
 @import './variables.scss';
 
