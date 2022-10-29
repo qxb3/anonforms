@@ -1,20 +1,27 @@
-$global-font-family: 'Victor Mono';
-$base-body-color: #FFF;
-$base-body-background: #222;
+$background: #222;
+$white: #FFF;
 
-$global-text-primary-vcolor: #FFF;
-$global-emphasis-color: #FFF;
+$global-font-family: 'Victor Mono';
+$base-body-color: $white;
+$base-body-background: $background;
+
+$global-text-primary-vcolor: $white;
+$global-emphasis-color: $white;
 $global-muted-color: #BFBFBF;
 
-$global-link-color: #FFF;
-$global-link-hover-color: #FFF;
+$global-link-color: $white;
+$global-link-hover-color: $white;
 
 $navbar-background: #333333;
 $dropbar-background: #1A1A1A;
-$dropbar-color: #FFF;
+$dropbar-color: $white;
 
 $form-background: #1A1A1A;
-$form-color: #FFF;
-$form-focus-color: #FFF;
+$form-color: $white;
+$form-focus-color: $white;
+
+$modal-dialog-background: $background;
+$modal-header-background: $background;
+$modal-footer-background: $background;
 
 $inverse-global-color-mode: none;
