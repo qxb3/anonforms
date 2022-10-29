@@ -25,7 +25,7 @@
     <h6 class="uk-margin-remove">Others</h6>
     <hr class="uk-margin-remove-top">
 
-    <a href="/new" class="uk-button uk-button-primary">
+    <a href="/new" class="uk-button uk-button-primary uk-button-small">
       Create Form
       <i class="fa fa-plus"></i>
     </a>
