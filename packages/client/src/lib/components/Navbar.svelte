@@ -1,23 +1,6 @@
 <script>
 </script>
 
-<nav class="uk-navbar uk-navbar-container" uk-navbar="dropbar: true; offset: 23;">
-  <div class="uk-navbar-left uk-padding-small">
-    <div class="logo">
-      <img class="uk-margin-remove"src="/logo.png" alt="Logo" width="32px" height="32px"/>
-      <a href="/">
-        <h1 class="uk-text-lead uk-margin-remove">AnonForms</h1>
-      </a>
-    </div>
-  </div>
-
-  <div class="uk-navbar-right uk-padding-small">
-    <a on:click|preventDefault href="#sidenav" uk-toggle="overlay: true;">
-      <i class="fa fa-bars fa-lg"></i>
-    </a>
-  </div>
-</nav>
-
 <div id="sidenav" uk-offcanvas="overlay: true;">
   <div class="uk-offcanvas-bar">
     <h6 class="uk-margin-remove">Navigation</h6>
@@ -53,6 +36,23 @@
     </button>
   </div>
 </div>
+
+<nav class="uk-navbar uk-navbar-container" uk-navbar="dropbar: true; offset: 23;">
+  <div class="uk-navbar-left uk-padding-small">
+    <div class="logo">
+      <img class="uk-margin-remove"src="/logo.png" alt="Logo" width="32px" height="32px"/>
+      <a href="/">
+        <h1 class="uk-text-lead uk-margin-remove">AnonForms</h1>
+      </a>
+    </div>
+  </div>
+
+  <div class="uk-navbar-right uk-padding-small">
+    <a on:click|preventDefault href="#sidenav" uk-toggle="overlay: true;">
+      <i class="fa fa-bars fa-lg"></i>
+    </a>
+  </div>
+</nav>
 
 <style>
   .logo {
