@@ -25,15 +25,17 @@
     <h6 class="uk-margin-remove">Others</h6>
     <hr class="uk-margin-remove-top">
 
-    <button class="uk-button uk-button-primary">
+    <a href="/new" class="uk-button uk-button-primary">
       Create Form
       <i class="fa fa-plus"></i>
-    </button>
+    </a>
 
-    <button class="uk-button uk-button-primary uk-margin-top">
+    <!--
+    <a href="/" class="uk-button uk-button-primary uk-margin-top">
       Random Form
       <i class="fa fa-random"></i>
-    </button>
+    </a>
+    -->
   </div>
 </div>
 
