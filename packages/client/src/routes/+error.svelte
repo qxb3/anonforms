@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-  <title>{$page.status}</title>
+  <title>Error Status {$page.status} - {$page.error.message}</title>
 </svelte:head>
 
 <Navbar />
