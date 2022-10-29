@@ -1,7 +1,8 @@
 $global-font-family: 'Victor Mono';
-$global-background: #222;
+$base-body-color: #FFF;
+$base-body-background: #222;
 
-$global-text-primary-color: #FFF;
+$global-text-primary-vcolor: #FFF;
 $global-emphasis-color: #FFF;
 $global-muted-color: #BFBFBF;
 
@@ -11,5 +12,9 @@ $global-link-hover-color: #FFF;
 $navbar-background: #333333;
 $dropbar-background: #1A1A1A;
 $dropbar-color: #FFF;
+
+$form-background: #1A1A1A;
+$form-color: #FFF;
+$form-focus-color: #FFF;
 
 $inverse-global-color-mode: none;
